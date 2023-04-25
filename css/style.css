@@ -1,21 +1,31 @@
-.banner {
+  .banner {
     background-image: url("../img/ba1.jpg");
     background-size: cover;
-    position: relative;
+    position: fixed;
+    width: 100%;
+  }
+  .carousel-item img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   .banner::before {
     content: "";
     position: absolute;
+    width: 100%;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(164, 46, 46, 0.6);
   }
   
   .banner-info {
     position: relative;
+    text-align: right;
+    width: 100%;
+    color: #000;
   }
   
   footer {
@@ -30,3 +40,8 @@
     margin-bottom: 300px;
   }
   
+  .formulario input,
+  .formulario textarea,
+  .formulario button {
+    max-width: 60%;
+  }
