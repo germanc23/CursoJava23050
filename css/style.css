@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
   }
+
   
   .banner::before {
     content: "";
@@ -40,8 +41,4 @@
     margin-bottom: 300px;
   }
   
-  .formulario input,
-  .formulario textarea,
-  .formulario button {
-    max-width: 60%;
-  }
+  
