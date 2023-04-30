@@ -1,44 +1,24 @@
-  .banner {
-    background-image: url("../img/ba1.jpg");
-    background-size: cover;
-    position: fixed;
-    width: 100%;
-  }
-  .carousel-item img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+.formulario form {
+  width: 50%;
+  margin: 0 auto
+}
 
-  
-  .banner::before {
-    content: "";
-    position: absolute;
+@media (max-width: 576px) {
+  .formulario form {
     width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(164, 46, 46, 0.6);
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .carousel-caption {
+    bottom: 30px;
+  }
+}
+  .carousel-caption h5 {
+    font-size: 1rem;
   }
   
-  .banner-info {
-    position: relative;
-    text-align: right;
-    width: 100%;
-    color: #000;
+  .carousel-caption p {
+    font-size: 1rem;
   }
-  
-  footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-  }
-  
-  body {
-    margin-bottom: 300px;
-  }
-  
-  
