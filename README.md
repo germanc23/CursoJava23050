@@ -1,5 +1,5 @@
 # CursoJava23050
 
-Primeros avances Proyecto integrador
+Proyecto integrador
 
 Comision 23050
